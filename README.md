@@ -138,8 +138,8 @@
     }
 }
 ```
-
-## PUT /user/:userId/profile (Authentication and Authorization required)
+## PUT /user/:userId/profile
+ (Authentication and Authorization required)
 - Allow an user to update their profile.
 - A user can update all the fields
 - Make sure that userId in url param and in token is same

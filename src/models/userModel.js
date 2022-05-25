@@ -20,7 +20,7 @@ const userSchema= new mongoose.Schema(
 
         profileImage: {
             type: String,
-           // required: true
+         // required: true
         },
 
         phone: {
@@ -32,8 +32,7 @@ const userSchema= new mongoose.Schema(
         password: {
             type: String,
             required:true,
-            minlength: 8,
-            maxlength: 15
+          
         },
 
         address: {
